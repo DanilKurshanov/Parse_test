@@ -1,5 +1,5 @@
 SELECT 
-producer_name, product_img_url,
+product_name, product_img_url,
 product_url, product_price_min, 
 product_short_description
 FROM grommet_products
@@ -9,7 +9,7 @@ WHERE grommet_gifts_categories.sub_category = 'Jewelry' AND grommet_products.is_
 
 
 SELECT 
-producer_name, product_img_url,
+product_name, product_img_url,
 product_url, product_price_min, 
 product_short_description
 FROM grommet_products
